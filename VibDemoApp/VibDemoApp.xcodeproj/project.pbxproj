@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6CB810326B43A1B00D5168F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB810226B43A1B00D5168F /* AppDelegate.swift */; };
+		B6CB810526B43A1B00D5168F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB810426B43A1B00D5168F /* SceneDelegate.swift */; };
+		B6CB810726B43A1B00D5168F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB810626B43A1B00D5168F /* ViewController.swift */; };
+		B6CB810A26B43A1B00D5168F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CB810826B43A1B00D5168F /* Main.storyboard */; };
+		B6CB810D26B43A1B00D5168F /* VibDemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6CB810B26B43A1B00D5168F /* VibDemoApp.xcdatamodeld */; };
+		B6CB810F26B43A1C00D5168F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CB810E26B43A1C00D5168F /* Assets.xcassets */; };
+		B6CB811226B43A1C00D5168F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CB811026B43A1C00D5168F /* LaunchScreen.storyboard */; };
+		B6CB811D26B43A1C00D5168F /* VibDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB811C26B43A1C00D5168F /* VibDemoAppTests.swift */; };
+		B6CB812826B43A1C00D5168F /* VibDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB812726B43A1C00D5168F /* VibDemoAppUITests.swift */; };
+		B6CB813B26B443BC00D5168F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB813A26B443BC00D5168F /* UserCell.swift */; };
+		B6CB813E26B4466B00D5168F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB813D26B4466B00D5168F /* UserModel.swift */; };
+		B6CB814026B44B5500D5168F /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB813F26B44B5500D5168F /* SecondVC.swift */; };
+		B6CB819D26B4500C00D5168F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB819C26B4500C00D5168F /* ImagePicker.swift */; };
+		B6CB819F26B4685B00D5168F /* Constant+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB819E26B4685B00D5168F /* Constant+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6CB811926B43A1C00D5168F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6CB80F726B43A1B00D5168F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6CB80FE26B43A1B00D5168F;
+			remoteInfo = VibDemoApp;
+		};
+		B6CB812426B43A1C00D5168F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6CB80F726B43A1B00D5168F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6CB80FE26B43A1B00D5168F;
+			remoteInfo = VibDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6CB80FF26B43A1B00D5168F /* VibDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CB810226B43A1B00D5168F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6CB810426B43A1B00D5168F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B6CB810626B43A1B00D5168F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6CB810926B43A1B00D5168F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6CB810C26B43A1B00D5168F /* VibDemoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VibDemoApp.xcdatamodel; sourceTree = "<group>"; };
+		B6CB810E26B43A1C00D5168F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6CB811126B43A1C00D5168F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6CB811326B43A1C00D5168F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CB811826B43A1C00D5168F /* VibDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CB811C26B43A1C00D5168F /* VibDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibDemoAppTests.swift; sourceTree = "<group>"; };
+		B6CB811E26B43A1C00D5168F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CB812326B43A1C00D5168F /* VibDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CB812726B43A1C00D5168F /* VibDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibDemoAppUITests.swift; sourceTree = "<group>"; };
+		B6CB812926B43A1C00D5168F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CB813A26B443BC00D5168F /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		B6CB813D26B4466B00D5168F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B6CB813F26B44B5500D5168F /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		B6CB819C26B4500C00D5168F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		B6CB819E26B4685B00D5168F /* Constant+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constant+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6CB80FC26B43A1B00D5168F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CB811526B43A1C00D5168F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CB812026B43A1C00D5168F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6CB80F626B43A1B00D5168F = {
+			isa = PBXGroup;
+			children = (
+				B6CB810126B43A1B00D5168F /* VibDemoApp */,
+				B6CB811B26B43A1C00D5168F /* VibDemoAppTests */,
+				B6CB812626B43A1C00D5168F /* VibDemoAppUITests */,
+				B6CB810026B43A1B00D5168F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6CB810026B43A1B00D5168F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB80FF26B43A1B00D5168F /* VibDemoApp.app */,
+				B6CB811826B43A1C00D5168F /* VibDemoAppTests.xctest */,
+				B6CB812326B43A1C00D5168F /* VibDemoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6CB810126B43A1B00D5168F /* VibDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB819B26B44FF500D5168F /* Utility */,
+				B6CB813C26B4461E00D5168F /* Models */,
+				B6CB813926B4436D00D5168F /* TableViewCells */,
+				B6CB813826B43ADE00D5168F /* Assets */,
+				B6CB813726B43ACB00D5168F /* StoryBoards */,
+				B6CB813626B43ABA00D5168F /* ViewController */,
+				B6CB813526B43A7700D5168F /* Common */,
+				B6CB811326B43A1C00D5168F /* Info.plist */,
+				B6CB810B26B43A1B00D5168F /* VibDemoApp.xcdatamodeld */,
+			);
+			path = VibDemoApp;
+			sourceTree = "<group>";
+		};
+		B6CB811B26B43A1C00D5168F /* VibDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB811C26B43A1C00D5168F /* VibDemoAppTests.swift */,
+				B6CB811E26B43A1C00D5168F /* Info.plist */,
+			);
+			path = VibDemoAppTests;
+			sourceTree = "<group>";
+		};
+		B6CB812626B43A1C00D5168F /* VibDemoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB812726B43A1C00D5168F /* VibDemoAppUITests.swift */,
+				B6CB812926B43A1C00D5168F /* Info.plist */,
+			);
+			path = VibDemoAppUITests;
+			sourceTree = "<group>";
+		};
+		B6CB813526B43A7700D5168F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB810226B43A1B00D5168F /* AppDelegate.swift */,
+				B6CB810426B43A1B00D5168F /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B6CB813626B43ABA00D5168F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB810626B43A1B00D5168F /* ViewController.swift */,
+				B6CB813F26B44B5500D5168F /* SecondVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B6CB813726B43ACB00D5168F /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB811026B43A1C00D5168F /* LaunchScreen.storyboard */,
+				B6CB810826B43A1B00D5168F /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		B6CB813826B43ADE00D5168F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB810E26B43A1C00D5168F /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B6CB813926B4436D00D5168F /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB813A26B443BC00D5168F /* UserCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		B6CB813C26B4461E00D5168F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB813D26B4466B00D5168F /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B6CB819B26B44FF500D5168F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB819C26B4500C00D5168F /* ImagePicker.swift */,
+				B6CB819E26B4685B00D5168F /* Constant+Extension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6CB80FE26B43A1B00D5168F /* VibDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CB812C26B43A1C00D5168F /* Build configuration list for PBXNativeTarget "VibDemoApp" */;
+			buildPhases = (
+				B6CB80FB26B43A1B00D5168F /* Sources */,
+				B6CB80FC26B43A1B00D5168F /* Frameworks */,
+				B6CB80FD26B43A1B00D5168F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VibDemoApp;
+			productName = VibDemoApp;
+			productReference = B6CB80FF26B43A1B00D5168F /* VibDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6CB811726B43A1C00D5168F /* VibDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CB812F26B43A1C00D5168F /* Build configuration list for PBXNativeTarget "VibDemoAppTests" */;
+			buildPhases = (
+				B6CB811426B43A1C00D5168F /* Sources */,
+				B6CB811526B43A1C00D5168F /* Frameworks */,
+				B6CB811626B43A1C00D5168F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6CB811A26B43A1C00D5168F /* PBXTargetDependency */,
+			);
+			name = VibDemoAppTests;
+			productName = VibDemoAppTests;
+			productReference = B6CB811826B43A1C00D5168F /* VibDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6CB812226B43A1C00D5168F /* VibDemoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CB813226B43A1C00D5168F /* Build configuration list for PBXNativeTarget "VibDemoAppUITests" */;
+			buildPhases = (
+				B6CB811F26B43A1C00D5168F /* Sources */,
+				B6CB812026B43A1C00D5168F /* Frameworks */,
+				B6CB812126B43A1C00D5168F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6CB812526B43A1C00D5168F /* PBXTargetDependency */,
+			);
+			name = VibDemoAppUITests;
+			productName = VibDemoAppUITests;
+			productReference = B6CB812326B43A1C00D5168F /* VibDemoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6CB80F726B43A1B00D5168F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B6CB80FE26B43A1B00D5168F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B6CB811726B43A1C00D5168F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B6CB80FE26B43A1B00D5168F;
+					};
+					B6CB812226B43A1C00D5168F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B6CB80FE26B43A1B00D5168F;
+					};
+				};
+			};
+			buildConfigurationList = B6CB80FA26B43A1B00D5168F /* Build configuration list for PBXProject "VibDemoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				ur,
+				ar,
+				"zh-Hans",
+				ja,
+				"nb-NO",
+				es,
+				pt_BR,
+				da,
+				it,
+				ko,
+				"zh-Hant",
+				hu,
+				tr,
+				vi,
+				ru,
+				fr,
+				nl,
+			);
+			mainGroup = B6CB80F626B43A1B00D5168F;
+			productRefGroup = B6CB810026B43A1B00D5168F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6CB80FE26B43A1B00D5168F /* VibDemoApp */,
+				B6CB811726B43A1C00D5168F /* VibDemoAppTests */,
+				B6CB812226B43A1C00D5168F /* VibDemoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6CB80FD26B43A1B00D5168F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CB811226B43A1C00D5168F /* LaunchScreen.storyboard in Resources */,
+				B6CB810F26B43A1C00D5168F /* Assets.xcassets in Resources */,
+				B6CB810A26B43A1B00D5168F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CB811626B43A1C00D5168F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CB812126B43A1C00D5168F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6CB80FB26B43A1B00D5168F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CB810726B43A1B00D5168F /* ViewController.swift in Sources */,
+				B6CB810326B43A1B00D5168F /* AppDelegate.swift in Sources */,
+				B6CB814026B44B5500D5168F /* SecondVC.swift in Sources */,
+				B6CB819F26B4685B00D5168F /* Constant+Extension.swift in Sources */,
+				B6CB810D26B43A1B00D5168F /* VibDemoApp.xcdatamodeld in Sources */,
+				B6CB813B26B443BC00D5168F /* UserCell.swift in Sources */,
+				B6CB819D26B4500C00D5168F /* ImagePicker.swift in Sources */,
+				B6CB813E26B4466B00D5168F /* UserModel.swift in Sources */,
+				B6CB810526B43A1B00D5168F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CB811426B43A1C00D5168F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CB811D26B43A1C00D5168F /* VibDemoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CB811F26B43A1C00D5168F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CB812826B43A1C00D5168F /* VibDemoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6CB811A26B43A1C00D5168F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6CB80FE26B43A1B00D5168F /* VibDemoApp */;
+			targetProxy = B6CB811926B43A1C00D5168F /* PBXContainerItemProxy */;
+		};
+		B6CB812526B43A1C00D5168F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6CB80FE26B43A1B00D5168F /* VibDemoApp */;
+			targetProxy = B6CB812426B43A1C00D5168F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6CB810826B43A1B00D5168F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6CB810926B43A1B00D5168F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6CB811026B43A1C00D5168F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6CB811126B43A1C00D5168F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6CB812A26B43A1C00D5168F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6CB812B26B43A1C00D5168F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6CB812D26B43A1C00D5168F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VibDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MGB.VibDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6CB812E26B43A1C00D5168F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VibDemoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MGB.VibDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6CB813026B43A1C00D5168F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VibDemoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MGB.VibDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VibDemoApp.app/VibDemoApp";
+			};
+			name = Debug;
+		};
+		B6CB813126B43A1C00D5168F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VibDemoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MGB.VibDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VibDemoApp.app/VibDemoApp";
+			};
+			name = Release;
+		};
+		B6CB813326B43A1C00D5168F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VibDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MGB.VibDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VibDemoApp;
+			};
+			name = Debug;
+		};
+		B6CB813426B43A1C00D5168F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VibDemoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MGB.VibDemoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VibDemoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6CB80FA26B43A1B00D5168F /* Build configuration list for PBXProject "VibDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CB812A26B43A1C00D5168F /* Debug */,
+				B6CB812B26B43A1C00D5168F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CB812C26B43A1C00D5168F /* Build configuration list for PBXNativeTarget "VibDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CB812D26B43A1C00D5168F /* Debug */,
+				B6CB812E26B43A1C00D5168F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CB812F26B43A1C00D5168F /* Build configuration list for PBXNativeTarget "VibDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CB813026B43A1C00D5168F /* Debug */,
+				B6CB813126B43A1C00D5168F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CB813226B43A1C00D5168F /* Build configuration list for PBXNativeTarget "VibDemoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CB813326B43A1C00D5168F /* Debug */,
+				B6CB813426B43A1C00D5168F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B6CB810B26B43A1B00D5168F /* VibDemoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B6CB810C26B43A1B00D5168F /* VibDemoApp.xcdatamodel */,
+			);
+			currentVersion = B6CB810C26B43A1B00D5168F /* VibDemoApp.xcdatamodel */;
+			path = VibDemoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B6CB80F726B43A1B00D5168F /* Project object */;
+}
